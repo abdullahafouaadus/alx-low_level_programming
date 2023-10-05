@@ -1,7 +1,16 @@
 #include <unistd.h>
+/**
+ * main - Entry point of the program
+ *
+ * we're printing"and that piece of art is useful" - Dora Korpar, 2015-10-19"
+ * followed by a new line and then returns 0 to indicate successful execution.
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	char text[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-int main() {
-    char text[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-    write(STDERR_FILENO, text, sizeof(text) - 1);  // Use sizeof to calculate the length of the text
-    return 0;
+	write(STDERR_FILENO, text, sizeof(text) - 1);
+	return (0);
 }

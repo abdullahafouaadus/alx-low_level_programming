@@ -1,4 +1,4 @@
-#include <main.h>
+#include 'main.h'
 
 int main() {
     char text[] = "_putchar";

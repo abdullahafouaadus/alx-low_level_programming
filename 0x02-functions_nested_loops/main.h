@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <unistd.h> // Include <unistd.h> to declare the write function
+#include <unistd.h>
 
 int _putchar(char c)
 {

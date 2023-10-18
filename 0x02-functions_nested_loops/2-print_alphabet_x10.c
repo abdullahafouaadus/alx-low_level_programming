@@ -18,7 +18,7 @@ void print_alphabet_x10(void)
             ++ch;
         }
 
-        _putchar('\n');  // Print a newline after each repetition
+        _putchar('\n');
         ++i;
     }
 }

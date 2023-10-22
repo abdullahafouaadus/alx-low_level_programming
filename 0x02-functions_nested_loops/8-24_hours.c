@@ -1,22 +1,22 @@
 #include "main.h"
 
 /**
- * jack_bauer - prints every minute of the day
- */
+* jack_bauer - prints every minute of the day
+*/
 void jack_bauer(void)
 {
-    int h = 0;
-    int m = 0;
+	int h = 0;
 
-    while (h <= 24)
-    {
-        while (m < 60)
-        {
-            printf("%.2d:%.2d\n", h, m);
-            m++;
-        }
-        h++;
-        m = 0; // Reset minutes to 0 for the next hour
-    }
+	int m = 0;
+
+	while (h <= 24)
+	{
+		while (m < 60)
+		{
+			printf("%.2d:%.2d\n", h, m);
+			m++;
+		}
+		h++;
+		m = 0;
+	}
 }
-
